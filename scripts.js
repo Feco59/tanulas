@@ -1,4 +1,17 @@
-console.log('muuu');
+// 4th part jQuery
+
+/* $('div').css('background', 'purple');*/
+/* $('.first').toggleClass('hidden'); */
+$('p').css('background', 'purple');
+$('p').text("<strong>Hello world</strong>");
+$('p').html("<strong>Hello world</strong>");
+let i = 13;
+$('button').click( () => 
+                        { i++
+                          $('p').text(i) }  )
+
+// From 1st part to the 3rd
+/*console.log('muuu');
 let colors = ["blue", "green", "purple", "orange"];
 let post = {
     title: "My Post",
@@ -26,7 +39,8 @@ let myFunction = x => {
 }
 
 let greeter = name => {
-    console.log(`Hello, ${name}!`)
+    console.log(`Hello, ${name}!`);
+    if (name === "Feco") console.log("Fecike is awesome!");
 }
 
 greeter("Feco");
@@ -45,5 +59,5 @@ for (let i = 0; i < 10; i++) {
     console.log(i);    
 }
 
-colors.forEach( color => console.log(color))
+colors.forEach( color => console.log(color)) */
 console.log("END END END END END");
