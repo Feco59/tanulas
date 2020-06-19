@@ -5,12 +5,21 @@
 $('p').css('background', 'purple');
 $('p').text("<strong>Hello world</strong>");
 $('p').html("<strong>Hello world</strong>");
+
+$('p').append(" <strong>motherfucker</strong>");
+$('p').prepend(" <strong>mother</strong>");
+
+
+
+
+
 let i = 13;
 $('button').click( () => 
                         { i++
                           $('p').text(i) }  )
 
 // From 1st part to the 3rd
+
 /*console.log('muuu');
 let colors = ["blue", "green", "purple", "orange"];
 let post = {
